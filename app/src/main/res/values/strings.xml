@@ -3,4 +3,6 @@
     <string name="number">0</string>
     <string name="btn_toast">Toast</string>
     <string name="btn_count">Count</string>
+    <string name="name_author">Nama: Muhamad Arif Farhan</string>
+    <string name="nim">NIM: 25/565972/SV/27017</string>
 </resources>
