@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,16 +16,27 @@
         android:textAlignment="center"
         android:textSize="250sp" />
 
-    <Button
-        android:id="@+id/btn_toast"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_toast" />
+        android:orientation="horizontal" >
 
-    <Button
-        android:id="@+id/btn_count"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_count" />
+        <Button
+            android:id="@+id/btn_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_toast"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_count"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
 
 </LinearLayout>
